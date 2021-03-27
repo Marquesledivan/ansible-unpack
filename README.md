@@ -6,7 +6,7 @@ sudo easy_install pip==20.3.4
 
 pip install ansible
 
-mkdir .local && mv * .local
+mv ansible-unpack .local
 
 export PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ledivan/.local/bin:/home/ledivan/bin
 
