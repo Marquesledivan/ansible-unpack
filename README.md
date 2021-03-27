@@ -28,3 +28,5 @@ become=True
 become_method=sudo
 become_ask_pass=False
 ```
+
+ANSIBLE_HOST_KEY_CHECKING=False ansible linux -i inventory -m shell -a 'ping 8.8.8.8 -c 4' -u root --ask-pass -b -K
